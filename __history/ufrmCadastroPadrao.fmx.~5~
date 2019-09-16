@@ -1,0 +1,106 @@
+object frmCadastroPadrao: TfrmCadastroPadrao
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 70.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object Panel2: TPanel
+    Align = Bottom
+    Position.Y = 424.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Button1: TButton
+      Action = acNovo
+      Anchors = [akLeft]
+      Enabled = True
+      ImageIndex = -1
+      Position.X = 32.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Action = acEditar
+      Anchors = [akLeft]
+      Enabled = True
+      ImageIndex = -1
+      Position.X = 152.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Action = acSalvar
+      Anchors = [akLeft]
+      Enabled = True
+      ImageIndex = -1
+      Position.X = 272.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+    end
+    object Button4: TButton
+      Action = acExcluir
+      Anchors = [akLeft]
+      Enabled = True
+      ImageIndex = -1
+      Position.X = 392.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+    end
+    object Button5: TButton
+      Action = acSair
+      Anchors = [akLeft]
+      Enabled = True
+      ImageIndex = -1
+      Position.X = 512.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+    end
+  end
+  object ActionList1: TActionList
+    Left = 560
+    Top = 264
+    object acNovo: TAction
+      Text = 'Novo'
+    end
+    object acEditar: TAction
+      Text = 'Editar'
+    end
+    object acExcluir: TAction
+      Text = 'Excluir'
+    end
+    object acSalvar: TAction
+      Text = 'Salvar'
+    end
+    object acSair: TAction
+      Text = 'Sair'
+    end
+  end
+end

@@ -1,0 +1,4 @@
+inherited frmCadastroServicos: TfrmCadastroServicos
+  Caption = 'Cadastro de Servi'#231'os'
+  DesignerMasterStyle = 0
+end

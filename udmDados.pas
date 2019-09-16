@@ -1,0 +1,44 @@
+unit udmDados;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.MongoDB,
+  FireDAC.Phys.MongoDBDef, System.Rtti, System.JSON.Types, System.JSON.Readers,
+  System.JSON.BSON, System.JSON.Builders, FireDAC.Phys.MongoDBWrapper,
+  FireDAC.FMXUI.Wait, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf,
+  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client,
+  FireDAC.Phys.MongoDBDataSet, FireDAC.Comp.UI;
+
+type
+  TdmDados = class(TDataModule)
+    FDConnection1: TFDConnection;
+    FDGUIxWaitCursor1: TFDGUIxWaitCursor;
+    FDPhysMongoDriverLink1: TFDPhysMongoDriverLink;
+    FDMongoQuery1: TFDMongoQuery;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    FConMongo: TMongoConnection;
+  end;
+
+var
+  dmDados: TdmDados;
+
+implementation
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure TdmDados.DataModuleCreate(Sender: TObject);
+begin
+  FDConnection1.Connected := true;
+  FConMongo := TMongoConnection(FDConnection1.CliObj);
+end;
+
+end.

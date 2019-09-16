@@ -1,0 +1,25 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = ScreenCenter
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object MainMenu1: TMainMenu
+    Left = 512
+    Top = 208
+  end
+  object ActionList1: TActionList
+    Left = 504
+    Top = 120
+    object Action1: TAction
+      Text = 'Action1'
+      OnExecute = Action1Execute
+    end
+  end
+end

@@ -1,0 +1,11 @@
+inherited frmCadastroServicos: TfrmCadastroServicos
+  Caption = 'Cadastro de Servi'#231'os'
+  DesignerMasterStyle = 0
+  object Button6: TButton [2]
+    Position.X = 136.000000000000000000
+    Position.Y = 152.000000000000000000
+    TabOrder = 4
+    Text = 'Button6'
+    OnClick = Button6Click
+  end
+end

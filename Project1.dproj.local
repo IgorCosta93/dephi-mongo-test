@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/09/13 14:25:13.323,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/13 14:25:34.939,C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit1.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/13 14:25:34.939,C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit1.fmx=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/09/13 14:25:37.841,C:\Users\USER\Documents\Projetos\Delphi\Salao\Project1.dproj=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/09/13 14:26:23.962,C:\Users\USER\Documents\Projetos\Delphi\Salao\ufrmPrincipal.fmx=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit1.fmx</Transaction>
+    <Transaction>2019/09/13 14:26:23.962,C:\Users\USER\Documents\Projetos\Delphi\Salao\ufrmPrincipal.pas=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit1.pas</Transaction>
+    <Transaction>2019/09/13 14:27:51.861,=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit2.pas</Transaction>
+    <Transaction>2019/09/13 14:28:29.165,C:\Users\USER\Documents\Projetos\Delphi\Salao\ufrmCadastroPadrao.pas=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit2.pas</Transaction>
+    <Transaction>2019/09/13 14:28:29.165,C:\Users\USER\Documents\Projetos\Delphi\Salao\ufrmCadastroPadrao.fmx=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit2.fmx</Transaction>
+    <Transaction>2019/09/13 14:50:10.835,=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit1.pas</Transaction>
+    <Transaction>2019/09/13 14:50:24.389,C:\Users\USER\Documents\Projetos\Delphi\Salao\ufrmCadastroServicos.pas=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit1.pas</Transaction>
+    <Transaction>2019/09/13 14:50:24.389,C:\Users\USER\Documents\Projetos\Delphi\Salao\ufrmCadastroServicos.fmx=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit1.fmx</Transaction>
+    <Transaction>2019/09/13 14:52:30.507,=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit1.pas</Transaction>
+    <Transaction>2019/09/13 14:52:59.120,C:\Users\USER\Documents\Projetos\Delphi\Salao\udmDados.pas=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit1.pas</Transaction>
+    <Transaction>2019/09/13 14:52:59.120,C:\Users\USER\Documents\Projetos\Delphi\Salao\udmDados.dfm=C:\Users\USER\Documents\Projetos\Delphi\Salao\Unit1.dfm</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>

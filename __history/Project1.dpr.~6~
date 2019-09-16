@@ -1,0 +1,18 @@
+program Project1;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  ufrmPrincipal in 'ufrmPrincipal.pas' {frmPrincipal},
+  ufrmCadastroPadrao in 'ufrmCadastroPadrao.pas' {frmCadastroPadrao},
+  ufrmCadastroServicos in 'ufrmCadastroServicos.pas' {frmCadastroPadrao1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TfrmCadastroPadrao, frmCadastroPadrao);
+  Application.CreateForm(TfrmCadastroPadrao1, frmCadastroPadrao1);
+  Application.Run;
+end.
