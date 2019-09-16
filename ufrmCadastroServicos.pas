@@ -10,7 +10,11 @@ uses
 type
   TfrmCadastroServicos = class(TfrmCadastroPadrao)
     Button6: TButton;
+    Button7: TButton;
+    Button8: TButton;
     procedure Button6Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
+    procedure Button8Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -49,6 +53,48 @@ begin
         .EndArray
       .&End
     .Exec;
+  end;
+end;
+
+procedure TfrmCadastroServicos.Button7Click(Sender: TObject);
+begin
+  inherited;
+  with dmDados do
+  begin
+    try
+      FConMongo['SALAO']['VENDA'].Update()
+        .Match()
+          .Add('TOTAL', 10.00)
+        .&End
+        .Modify()
+          .&Set()
+            .Field('TOTAL', 20.00)
+          .&End
+          .CurrentDate()
+            .asDate('ultALteracao')
+          .&End
+        .&End
+      .Exec;
+    finally
+      ShowMessage('Atualizado com Sucesso!');
+    end;
+  end;
+end;
+
+procedure TfrmCadastroServicos.Button8Click(Sender: TObject);
+begin
+  inherited;
+  with dmDados do
+  begin
+    try
+      FConMongo['SALAO']['VENDA'].Remove()
+        .Match()
+          .Add('TOTAL', 10.00)
+        .&End
+      .Exec;
+    finally
+      ShowMessage('Removido com Sucesso!');
+    end;
   end;
 end;
 

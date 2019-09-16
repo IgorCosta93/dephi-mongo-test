@@ -5,7 +5,21 @@ inherited frmCadastroServicos: TfrmCadastroServicos
     Position.X = 136.000000000000000000
     Position.Y = 152.000000000000000000
     TabOrder = 4
-    Text = 'Button6'
+    Text = 'Inserindo'
     OnClick = Button6Click
+  end
+  object Button7: TButton [3]
+    Position.X = 136.000000000000000000
+    Position.Y = 192.000000000000000000
+    TabOrder = 6
+    Text = 'Atualizar'
+    OnClick = Button7Click
+  end
+  object Button8: TButton [4]
+    Position.X = 136.000000000000000000
+    Position.Y = 232.000000000000000000
+    TabOrder = 8
+    Text = 'Remover'
+    OnClick = Button8Click
   end
 end
